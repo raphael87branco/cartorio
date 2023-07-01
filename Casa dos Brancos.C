@@ -112,6 +112,7 @@ int main()
         printf("\t1 - Registrar nome\n");
         printf("\t2 - Consultar nome\n");
         printf("\t3 - Deletar nome\n\n");
+        printf("\t4 - Sair do Sistema\n\n");
         printf("Opcao: ");
 
         scanf("%d", &opcao);
@@ -131,6 +132,11 @@ int main()
         case 3:
             deletar();
             break;
+
+        case 4:
+        printf("Ate Breve");
+        return 0;
+        break;
 
         default:
             printf("Opcao nao disponivel.\n");
